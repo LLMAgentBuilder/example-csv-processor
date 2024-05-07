@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: csv-processor
+  threads:
+    virtual:
+      enabled: true
+io:
+  github:
+    llmagentbuilder:
+      chatagent:
+        name: CSV Processor
+        description: Process CSV files
+        usageInstruction: What you want to do with the CSV file?
+        reActJson:
+          systemInstructions: |
+            Process CSV files.
+        memory:
+          enabled: false
+        tools:
+          config:
+            readLocalFile:
+              basePath: E:\csv-processor-test\input
+            writeLocalFile:
+              basePath: E:\csv-processor-test\output
