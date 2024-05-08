@@ -4,6 +4,12 @@ spring:
   threads:
     virtual:
       enabled: true
+  ai:
+    dashscope:
+      chat:
+        options:
+          model: qwen-plus
+          temperature: 0.1
 io:
   github:
     llmagentbuilder:
@@ -19,6 +25,8 @@ io:
         tools:
           config:
             readLocalFile:
-              basePath: E:\csv-processor-test\input
+              basePath: test_data/input
             writeLocalFile:
-              basePath: E:\csv-processor-test\output
+              basePath: test_data/output
+            executePythonCode:
+              workingDirectory: test_data/input
