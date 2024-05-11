@@ -17,7 +17,7 @@ io:
         name: CSV Processor
         description: Process CSV files
         usageInstruction: What you want to do with the CSV file?
-        reActJson:
+        planner:
           systemInstructions: |
             Process CSV files.
         memory:
