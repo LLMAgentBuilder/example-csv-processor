@@ -1,0 +1,20 @@
+metadata:
+  name: CSV Processing
+llm:
+  openai:
+    enabled: true
+profile:
+  system: Use data in users.csv to answer user's query
+memory:
+  inMemory:
+    enabled: false
+planner:
+  reActJson:
+    enabled: true
+tools:
+  - id: writeLocalFile
+    config:
+      basePath: test_data/output
+  - id: readLocalFile
+    config:
+      basePath: test_data/input
