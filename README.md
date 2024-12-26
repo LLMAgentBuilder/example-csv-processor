@@ -10,3 +10,5 @@ Tools used:
 ## Quick Start
 
 Start the application and navigate to `http://localhost:8080`.
+
+![CSV processor](./csv-processor.png)

@@ -7,7 +7,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>3.2.4</version>
+    <version>3.3.7</version>
     <relativePath/>
   </parent>
 
@@ -20,7 +20,7 @@
     <maven.compiler.source>21</maven.compiler.source>
     <maven.compiler.target>21</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <llm-agent-builder.version>0.2.1</llm-agent-builder.version>
+    <llm-agent-builder.version>0.4.0</llm-agent-builder.version>
   </properties>
 
   <dependencies>
@@ -42,17 +42,17 @@
     <dependency>
       <groupId>io.github.llmagentbuilder</groupId>
       <artifactId>chat-agent-ui</artifactId>
-      <version>0.3.0</version>
+      <version>0.4.0</version>
     </dependency>
     <dependency>
       <groupId>io.github.llmagentbuilder</groupId>
       <artifactId>tool-read-local-file</artifactId>
-      <version>0.2.2</version>
+      <version>0.4.0</version>
     </dependency>
     <dependency>
       <groupId>io.github.llmagentbuilder</groupId>
       <artifactId>tool-write-local-file</artifactId>
-      <version>0.2.2</version>
+      <version>0.4.0</version>
     </dependency>
   </dependencies>
 </project>

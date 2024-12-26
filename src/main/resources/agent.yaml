@@ -4,7 +4,7 @@ llm:
   openai:
     enabled: true
 profile:
-  system: Use data in {files} to answer user's query. Choose the suitable file based on user's query. Display results directly.
+  system: Use data in CSV files {files} to answer user's query. Choose the suitable file based on user's query. Display results directly.
 memory:
   inMemory:
     enabled: false
