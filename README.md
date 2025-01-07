@@ -1,5 +1,7 @@
 # LLM Agent Builder Example - CSV Processor
 
+[![build](https://github.com/LLMAgentBuilder/example-csv-processor/actions/workflows/build.yaml/badge.svg)](https://github.com/LLMAgentBuilder/example-csv-processor/actions/workflows/build.yaml)
+
 Process local CSV files.
 
 Tools used:
